@@ -86,6 +86,7 @@ export function CardDay({ number, image, day, giftImageURL, gift }) {
             open={open}
             setOpen={setOpen}
             day={day}
+            giftImageURL={giftImageURL}
             gift={gift}
           ></CardDayModal>
         )}
