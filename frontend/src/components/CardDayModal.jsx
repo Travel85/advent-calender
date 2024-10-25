@@ -8,10 +8,11 @@ export default function CardDayModal({
   day,
   giftImageURL,
   gift,
+  number,
 }) {
   const dayISO = DateTime.fromISO(day)
     .setLocale("de")
-    .toFormat("cccc', den 'dd.MM.yy");
+    .toFormat("cccc', der 'dd.MM.yy");
   return (
     <>
       <Modal
@@ -27,7 +28,7 @@ export default function CardDayModal({
             top: "50%",
             left: "50%",
             transform: "translate(-50%, -50%)",
-            width: 500,
+            width: 400,
             bgcolor: "background.paper",
             border: "2px solid #000",
             boxShadow: 24,
@@ -47,14 +48,20 @@ export default function CardDayModal({
             }}
           >
             <Typography id="modal-modal-title" variant="h6">
-              Das Türchen für {dayISO}
+              Türchen Nummer {number}
             </Typography>
             <Typography
               id="modal-modal-description"
               sx={{ mt: 2 }}
               gutterBottom
             >
-              <img src={giftImageURL}></img>
+              <img
+                src={giftImageURL}
+                style={{
+                  width: "80%",
+                  height: "auto",
+                }}
+              ></img>
             </Typography>
             <Typography variant="body2" gutterBottom>
               {gift}

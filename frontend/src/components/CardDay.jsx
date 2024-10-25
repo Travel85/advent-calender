@@ -88,6 +88,7 @@ export function CardDay({ number, image, day, giftImageURL, gift }) {
             day={day}
             giftImageURL={giftImageURL}
             gift={gift}
+            number={number}
           ></CardDayModal>
         )}
       </Paper>

@@ -3,7 +3,7 @@ import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 
-import React, { Fragment, useState } from "react";
+import { Fragment, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import CssBaseline from "@mui/material/CssBaseline";
 import { Titleheader } from "./components/Titleheader";
@@ -60,7 +60,11 @@ function App() {
       }}
     >
       <ThemeProvider theme={theme}>
-        <ToastContainer position="top-center" autoClose={4000} theme="dark" />
+        <ToastContainer
+          position="bottom-center"
+          autoClose={4000}
+          theme="dark"
+        />
         <CssBaseline />
         <Titleheader></Titleheader>
         <Box
