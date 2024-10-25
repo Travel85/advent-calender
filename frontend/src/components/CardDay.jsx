@@ -34,27 +34,12 @@ export function CardDay({ number, image, day, giftImageURL, gift }) {
   //console.log(compareDate(currentDate, "2024-10-25"));
   //used to show OffercardDtails of Offercard
   const [open, setOpen] = useState(false);
-  const onModal = () => setOpen(!open);
-
-  const showModal = () => {
+  // const onModal = () => setOpen(!open);
+  const onModal = () => {
     if (compareDate(currentDate, day)) {
-      if (open) {
-        return (
-          <CardDayModal
-            open={open}
-            setOpen={setOpen}
-            day={day}
-            giftImageURL={giftImageURL}
-            gift={gift}
-          ></CardDayModal>
-        );
-      } else {
-        return null;
-      }
+      setOpen(!open);
     } else {
-      //console.log(`Das ist zu früh :-)`);
       toast.warn(`Du musst dich noch ein bisschen gedulden 😊`);
-      return null;
     }
   };
 
@@ -95,15 +80,15 @@ export function CardDay({ number, image, day, giftImageURL, gift }) {
             </CardContent>
           </CardActionArea>
         </Card>
-        {showModal()}
-        {/* {open && (
+        {/* {showModal()} */}
+        {open && (
           <CardDayModal
             open={open}
             setOpen={setOpen}
             day={day}
             gift={gift}
           ></CardDayModal>
-        )} */}
+        )}
       </Paper>
     </Fragment>
   );
