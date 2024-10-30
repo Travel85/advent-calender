@@ -1,4 +1,4 @@
-import { Box, Button, Modal } from "@mui/material";
+import { Box, Modal } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import { DateTime } from "luxon";
 
@@ -10,9 +10,6 @@ export default function CardDayModal({
   gift,
   number,
 }) {
-  const dayISO = DateTime.fromISO(day)
-    .setLocale("de")
-    .toFormat("cccc', der 'dd.MM.yy");
   return (
     <>
       <Modal

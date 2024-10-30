@@ -1,16 +1,11 @@
 import { CardContent } from "@mui/material";
 import Card from "@mui/material/Card";
-import CardActions from "@mui/material/CardActions";
+
 import CardHeader from "@mui/material/CardHeader";
 import CardMedia from "@mui/material/CardMedia";
 import Avatar from "@mui/material/Avatar";
 import Paper from "@mui/material/Paper";
-import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
-import IconButton from "@mui/material/IconButton";
-import ThumbUpIcon from "@mui/icons-material/ThumbUp";
-import FavoriteIcon from "@mui/icons-material/Favorite";
-import ThumbUpOffAltIcon from "@mui/icons-material/ThumbUpOffAlt";
+
 import CardActionArea from "@mui/material/CardActionArea";
 import { Fragment } from "react";
 import LockIcon from "@mui/icons-material/Lock";
