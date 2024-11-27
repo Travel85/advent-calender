@@ -26,7 +26,7 @@ export default function CardDayModal({
             left: "50%",
             transform: "translate(-50%, -50%)",
             width: 400,
-            bgcolor: "background.paper",
+            bgcolor: "lightgrey",
             border: "2px solid #000",
             boxShadow: 24,
             p: 4,
@@ -42,6 +42,7 @@ export default function CardDayModal({
               alignItems: "center",
               justifyContent: "center",
               rowGap: "5%",
+              bgcolor: "lightgrey",
             }}
           >
             <Typography id="modal-modal-title" variant="h6">
@@ -49,7 +50,12 @@ export default function CardDayModal({
             </Typography>
             <Typography
               id="modal-modal-description"
-              sx={{ mt: 2 }}
+              sx={{
+                mt: 2,
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
               gutterBottom
             >
               <img
@@ -60,7 +66,13 @@ export default function CardDayModal({
                 }}
               ></img>
             </Typography>
-            <Typography variant="body2" gutterBottom>
+            <Typography
+              sx={{
+                textAlign: "center",
+              }}
+              variant="body2"
+              gutterBottom
+            >
               {gift}
             </Typography>
           </Box>

@@ -16,7 +16,7 @@ import { DateTime } from "luxon";
 import { toast } from "react-toastify";
 
 export function CardDay({ number, image, day, giftImageURL, gift }) {
-  //check if current day is equal to or older than the current day
+  //check if current day is equal to or older than the calender day
   const currentDate = DateTime.now();
   const compareDate = (currentDate, futureDate) => {
     //  console.log(`Future date from Import: ${futureDate}`);
@@ -24,6 +24,15 @@ export function CardDay({ number, image, day, giftImageURL, gift }) {
 
     // console.log(`Current day: ${currentDate} future day: ${futureDateISO}`);
     return currentDate.startOf("day") >= futureDateISO.startOf("day");
+  };
+
+  //check if the current day is equal to than the calender day
+  const todayDate = (currentDate, futureDate) => {
+    //  console.log(`Future date from Import: ${futureDate}`);
+    const futureDateISO = DateTime.fromISO(futureDate);
+
+    // console.log(`Current day: ${currentDate} future day: ${futureDateISO}`);
+    return currentDate.startOf("day").equals(futureDateISO.startOf("day"));
   };
 
   //console.log(compareDate(currentDate, "2024-10-25"));
@@ -48,7 +57,8 @@ export function CardDay({ number, image, day, giftImageURL, gift }) {
             },
             maxWidth: 300,
             height: 355,
-            bgcolor: "DodgerBlue",
+            // bgcolor: "DodgerBlue",
+            bgcolor: todayDate(currentDate, day) ? "#de4545" : "dodgerblue",
           }}
         >
           <CardActionArea onClick={onModal}>

@@ -29,9 +29,9 @@ function App() {
       id: uuidv4(),
       number: 1,
       image: "/1.jpg",
-      day: "2024-10-24",
+      day: "2024-12-01",
       giftImageURL: "./gifts/1.jpg",
-      gift: "Heute gibt es Humus!",
+      gift: "Heute gibt es Sallys Flex Design Schlitzwender groß",
     },
     {
       id: uuidv4(),
@@ -39,7 +39,7 @@ function App() {
       image: "/2.jpg",
       day: "2024-12-02",
       giftImageURL: "./gifts/2.jpg",
-      gift: "Placeholder text",
+      gift: "Heute gibt es saure Haribos",
     },
     {
       id: uuidv4(),
@@ -47,7 +47,7 @@ function App() {
       image: "/3.jpg",
       day: "2024-12-03",
       giftImageURL: "./gifts/3.jpg",
-      gift: "Placeholder text",
+      gift: "Heute geht es zum Weihnachtsmarkt nach Karlsruhe",
     },
     {
       id: uuidv4(),
@@ -55,7 +55,7 @@ function App() {
       image: "/4.jpg",
       day: "2024-12-04",
       giftImageURL: "./gifts/4.jpg",
-      gift: "Placeholder text",
+      gift: "Heute geht es ins Reisebüro zur Kreuzfahrtberatung für die Flitterwochen",
     },
     {
       id: uuidv4(),
@@ -63,7 +63,7 @@ function App() {
       image: "/5.jpg",
       day: "2024-12-05",
       giftImageURL: "./gifts/5.jpg",
-      gift: "Placeholder text",
+      gift: "Heute gibt es Sallys Tortenring 10cm",
     },
     {
       id: uuidv4(),
@@ -71,7 +71,7 @@ function App() {
       image: "/6.jpg",
       day: "2024-12-06",
       giftImageURL: "./gifts/6.jpg",
-      gift: "Placeholder text",
+      gift: "Heute gibt es einen Concealer",
     },
     {
       id: uuidv4(),
@@ -79,7 +79,7 @@ function App() {
       image: "/7.jpg",
       day: "2024-12-07",
       giftImageURL: "./gifts/7.jpg",
-      gift: "Placeholder text",
+      gift: "Heute geht es zum Weihnachtsmarkt nach Pforzheim",
     },
     {
       id: uuidv4(),
@@ -87,7 +87,7 @@ function App() {
       image: "/8.jpg",
       day: "2024-12-08",
       giftImageURL: "./gifts/8.jpg",
-      gift: "Placeholder text",
+      gift: "Heute gibt es eine entspannte Massage",
     },
     {
       id: uuidv4(),
@@ -95,7 +95,7 @@ function App() {
       image: "/9.jpg",
       day: "2024-12-09",
       giftImageURL: "./gifts/9.jpg",
-      gift: "Placeholder text",
+      gift: "Heute gibt es Sallys Kuchentester Stäbchenprobe",
     },
     {
       id: uuidv4(),
@@ -103,7 +103,7 @@ function App() {
       image: "/10.jpg",
       day: "2024-12-10",
       giftImageURL: "./gifts/10.jpg",
-      gift: "Placeholder text",
+      gift: "Heute gibt es Cashew Nüsse",
     },
     {
       id: uuidv4(),
@@ -111,7 +111,7 @@ function App() {
       image: "/11.jpg",
       day: "2024-12-11",
       giftImageURL: "./gifts/11.jpg",
-      gift: "Placeholder text",
+      gift: "Heute gibt es Sallys Springformboden 20cm",
     },
     {
       id: uuidv4(),
@@ -119,7 +119,7 @@ function App() {
       image: "/12.jpg",
       day: "2024-12-12",
       giftImageURL: "./gifts/12.jpg",
-      gift: "Placeholder text",
+      gift: "Heute gibt es leckeres Sushi",
     },
     {
       id: uuidv4(),
@@ -127,7 +127,7 @@ function App() {
       image: "/13.jpg",
       day: "2024-12-13",
       giftImageURL: "./gifts/13.jpg",
-      gift: "Placeholder text",
+      gift: "Heute gibt es Sallys Backformmesser",
     },
     {
       id: uuidv4(),
@@ -135,7 +135,7 @@ function App() {
       image: "/14.jpg",
       day: "2024-12-14",
       giftImageURL: "./gifts/14.jpg",
-      gift: "Placeholder text",
+      gift: "Heute gibt es Backtrennspray",
     },
     {
       id: uuidv4(),
@@ -143,7 +143,7 @@ function App() {
       image: "/15.jpg",
       day: "2024-12-15",
       giftImageURL: "./gifts/15.jpg",
-      gift: "Placeholder text",
+      gift: "Heute koche ich Abendessen für meinen Schatzi",
     },
     {
       id: uuidv4(),
@@ -151,7 +151,7 @@ function App() {
       image: "/16.jpg",
       day: "2024-12-16",
       giftImageURL: "./gifts/16.jpg",
-      gift: "Placeholder text",
+      gift: "Heute gibt es Socken",
     },
     {
       id: uuidv4(),
@@ -159,7 +159,7 @@ function App() {
       image: "/17.jpg",
       day: "2024-12-17",
       giftImageURL: "./gifts/17.jpg",
-      gift: "Placeholder text",
+      gift: "Heute gibt es Brezelchen",
     },
     {
       id: uuidv4(),
@@ -167,7 +167,7 @@ function App() {
       image: "/18.jpg",
       day: "2024-12-18",
       giftImageURL: "./gifts/18.jpg",
-      gift: "Placeholder text",
+      gift: "Heute gibt es Sallys Tortenretter",
     },
     {
       id: uuidv4(),
@@ -175,7 +175,7 @@ function App() {
       image: "/19.jpg",
       day: "2024-12-19",
       giftImageURL: "./gifts/19.jpg",
-      gift: "Placeholder text",
+      gift: "Heute gibt es Humus",
     },
     {
       id: uuidv4(),
@@ -183,7 +183,7 @@ function App() {
       image: "/20.jpg",
       day: "2024-12-20",
       giftImageURL: "./gifts/20.jpg",
-      gift: "Placeholder text",
+      gift: "Heute gibt es Sallys Tortenring Winkelpalette",
     },
     {
       id: uuidv4(),
@@ -191,7 +191,7 @@ function App() {
       image: "/21.jpg",
       day: "2024-12-21",
       giftImageURL: "./gifts/21.jpg",
-      gift: "Placeholder text",
+      gift: "Heute holen wir Essen beim Panda Imbiss",
     },
     {
       id: uuidv4(),
@@ -199,7 +199,7 @@ function App() {
       image: "/22.jpg",
       day: "2024-12-22",
       giftImageURL: "./gifts/22.jpg",
-      gift: "Placeholder text",
+      gift: "Heute haben wir einen romantischem Fernsehabend",
     },
     {
       id: uuidv4(),
@@ -207,7 +207,7 @@ function App() {
       image: "/23.jpg",
       day: "2024-12-23",
       giftImageURL: "./gifts/23.jpg",
-      gift: "Placeholder text",
+      gift: "Heute gibt es einen Piccolo",
     },
     {
       id: uuidv4(),
@@ -215,7 +215,7 @@ function App() {
       image: "/24.jpg",
       day: "2024-12-24",
       giftImageURL: "./gifts/24.jpg",
-      gift: "Placeholder text",
+      gift: "Heute gibt es Sallys Gusseisen Brotbackform inkl. Brotskalpell",
     },
   ]);
 
