@@ -6,7 +6,7 @@ export const Titleheader = () => {
   return (
     <Box sx={{}}>
       <Typography
-        variant="h1"
+        variant="h2"
         sx={{
           textAlign: "center",
           fontFamily: `"Henny Penny", system-ui`,
@@ -20,6 +20,7 @@ export const Titleheader = () => {
       <Box
         sx={{
           textAlign: "center",
+          padding: "5px",
         }}
       >
         <CurrentDateHeader />
