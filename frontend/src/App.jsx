@@ -225,6 +225,7 @@ function App() {
         backgroundColor: "lightblue",
         minHeight: "100vh",
         minWidth: "100%",
+        paddingBottom: "20px",
       }}
     >
       <ThemeProvider theme={theme}>
